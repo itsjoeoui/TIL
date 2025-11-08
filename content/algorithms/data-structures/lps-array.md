@@ -41,3 +41,5 @@ vector<int> computeLPSArray(string &pattern) {
     return lps;
 }
 ```
+
+LPS Array is used in [[kmp-algorithm|KMP Algorithm]].
