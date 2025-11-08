@@ -1,5 +1,6 @@
 ---
 title: LPS Array
+date: 2025-11-07
 ---
 Longest Prefix Suffix Array
 

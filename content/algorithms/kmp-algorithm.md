@@ -1,5 +1,6 @@
 ---
 title: KMP Algorithm
+date: 2025-11-07
 ---
 Used for string matching. For example, given a pattern and a string, find all the occurrences of this pattern in the string.
 

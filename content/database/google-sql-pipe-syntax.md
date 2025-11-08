@@ -1,5 +1,6 @@
 ---
 title: Google's SQL Pipe Syntax
+date: 2025-11-07
 ---
 I think this should be the future of SQL!
 
