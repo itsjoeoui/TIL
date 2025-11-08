@@ -59,6 +59,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.RecentNotes({
+      // filter out the index.md files
+      filter: (f) => !f.filePath?.endsWith("index.md"),
+    }),
   ],
 }
 
