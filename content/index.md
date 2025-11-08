@@ -2,4 +2,8 @@
 title: Today I Learned
 comments: false
 ---
-Hello World!
+
+Things that I am currently learning:
+
+- C++
+- [Prometheus](https://prometheus.io/)
