@@ -1,5 +1,5 @@
 ---
-title: Google SQL Pipe Syntax
+title: Google's SQL Pipe Syntax
 ---
 I think this should be the future of SQL!
 
