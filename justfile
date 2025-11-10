@@ -4,6 +4,7 @@ watch source="~/src/JYUHQ/TIL/":
 sync source="~/src/JYUHQ/TIL/":
   rsync -av --delete {{source}} ./content/
   npx prettier -w ./content/
+  rsync -av ./content/ {{source}}
 
 dev:
   npx quartz build --serve
