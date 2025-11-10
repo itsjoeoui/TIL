@@ -2,6 +2,7 @@
 title: KMP Algorithm
 date: 2025-11-07
 ---
+
 Used for string matching. For example, given a pattern and a string, find all the occurrences of this pattern in the string.
 
 The time complexity is $O(n+m)$ where $n$ is the length of the string and $m$ is the length of the pattern.
@@ -76,4 +77,3 @@ vector<int> search(string &pat, string &txt) {
     return res;
 }
 ```
-

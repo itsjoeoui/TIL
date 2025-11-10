@@ -2,6 +2,7 @@
 title: Google's SQL Pipe Syntax
 date: 2025-11-07
 ---
+
 I think this should be the future of SQL!
 
 [Pipe query syntax](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/pipe-syntax)

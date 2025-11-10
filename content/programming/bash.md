@@ -2,7 +2,9 @@
 title: Bash
 date: 2025-11-10
 ---
+
 Always
+
 ```bash
 #!/usr/bin/env bash
 set -euo pipefail
