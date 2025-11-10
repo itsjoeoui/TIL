@@ -16,4 +16,3 @@ The "brick walls" are there for a reason. They test how badly you want something
 If no one points out your mistake, that's a really really bad sign. It means they have given up on you. Honest feedback is precious.
 
 ![Randy Pausch's Last Lecture: Achieving Your Childhood Dreams](https://www.youtube.com/watch?v=ji5_MqicxSo)
-

@@ -21,4 +21,3 @@ $$
 $$
 
 Each bit = one “yes/no” question that halves the search space.
-

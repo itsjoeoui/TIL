@@ -10,4 +10,3 @@ $$
 $$
 
 ![Sigmoid function](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg)
-

@@ -21,11 +21,11 @@ Normally, Python objects store their attributes in a per-instance `__dict__` (ha
 
 ```python
 class SlottedPoint:
-  __slots__ = ('x', 'y')
+	__slots__ = ('x', 'y')
 
-  def __init__(self, x, y):
-    self.x = x
-    self.y = y
+	def __init__(self, x, y):
+		self.x = x
+		self.y = y
 ```
 
 **Why use it:**
@@ -42,4 +42,3 @@ class SlottedPoint:
 - Makes inheritance trickier.
 
 Use it when you have lots of small, fixed-structure objects and care about performance, skip it when flexibility matters more.
-
