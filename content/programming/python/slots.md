@@ -21,11 +21,11 @@ Normally, Python objects store their attributes in a per-instance `__dict__` (ha
 
 ```python
 class SlottedPoint:
-	__slots__ = ('x', 'y')
+  __slots__ = ('x', 'y')
 
-	def __init__(self, x, y):
-		self.x = x
-		self.y = y
+  def __init__(self, x, y):
+    self.x = x
+    self.y = y
 ```
 
 **Why use it:**
