@@ -3,6 +3,8 @@ title: Convex Hull
 date: 2025-11-20
 ---
 
+![Convex Hull](https://web.ntnu.edu.tw/~algo/Andrew'sMonotoneChain2.png)
+
 The convex hull is the smallest convex polygon containing all points in a set. Andrew's algorithm builds it efficiently in O(n log n) time by:
 
 1. **Sorting points** lexicographically (by x-coordinate, then y-coordinate)
