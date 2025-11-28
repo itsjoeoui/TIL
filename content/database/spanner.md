@@ -27,6 +27,10 @@ The commit wait duration is `latest - earliest`. Here's the reasoning:
 
 In practice, the average wait is about half that duration (2-4ms in Google datacenters) since true time is typically near the middle of the interval. The interval width comes from clock uncertainty, TrueTime accounts for potential clock drift by providing a range around the true time. Google synchronizes TrueTime servers with GPS and atomic clocks approximately every 30 seconds, keeping the uncertainty bound small and thus minimizing commit latency.
 
+## Multiversion Concurrency Control (MVCC)
+
+Spanner uses MVCC: writes don't modify records in place. Instead, each write creates a new versioned copy tagged with its commit timestamp. This allows Spanner to maintain multiple versions of the same data, enabling snapshot reads at any historical timestamp without blocking writers.
+
 ## Paxos & 2PC
 
 Spanner uses **Paxos for replication within groups** and **2PC for coordination across groups**.
