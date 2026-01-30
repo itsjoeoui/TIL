@@ -1,5 +1,6 @@
 ---
 title: Ikigai
+date: 2026-11-29
 ---
 
 ![[ikigai.webp]]
