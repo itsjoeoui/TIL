@@ -1,5 +1,5 @@
 ---
-title: "2008"
+title: 2008 Financial Crisis
 ---
 
 How a housing bubble brought down the global financial system.
