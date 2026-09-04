@@ -1,4 +1,4 @@
-# Today I Learned (TIL)
+# Quartz v5
 
 You can find the website at [til.jyu.dev](https://til.jyu.dev) :)
 
